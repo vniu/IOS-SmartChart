@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0473081763278100FE66A6 /* ChartViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0473071763277F00FE66A6 /* ChartViewViewController.m */; };
+		BF1A286F176ED754000EA5BC /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A286E176ED754000EA5BC /* Triangle.m */; };
+		BF1A2872176EDDB4000EA5BC /* Diamon.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A2871176EDDB3000EA5BC /* Diamon.m */; };
+		BF287993174B5A2D007F4182 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = BF287992174B5A2D007F4182 /* Shape.m */; };
+		BF287996174B62D5007F4182 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = BF287995174B62D5007F4182 /* Line.m */; };
+		BF28799C174B6775007F4182 /* Column.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28799B174B6774007F4182 /* Column.m */; };
+		BF28799F174B69AC007F4182 /* RectLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF28799E174B69AC007F4182 /* RectLayer.m */; };
+		BF2879A2174B6AFA007F4182 /* BaseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2879A1174B6AF9007F4182 /* BaseLayer.m */; };
+		BF2879A5174B6C87007F4182 /* SliceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2879A4174B6C86007F4182 /* SliceLayer.m */; };
+		BF317F7C174EF46E003AD514 /* LineGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = BF317F7B174EF46E003AD514 /* LineGradient.m */; };
+		BF317F7F174EF7EF003AD514 /* UIColor+ChartColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF317F7E174EF7EF003AD514 /* UIColor+ChartColor.m */; };
+		BF33D982174F3D28007A0F3D /* SCGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF33D981174F3D28007A0F3D /* SCGradientLayer.m */; };
+		BF35C01E1744B3B5007F9CA8 /* ChartBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C01D1744B3B5007F9CA8 /* ChartBase.m */; };
+		BF35C0241744B3EC007F9CA8 /* RoundChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0231744B3EC007F9CA8 /* RoundChart.m */; };
+		BF35C0271744B405007F9CA8 /* LineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0261744B405007F9CA8 /* LineChart.m */; };
+		BF35C02A1744B41B007F9CA8 /* ColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0291744B41B007F9CA8 /* ColumnChart.m */; };
+		BF35C02D1744B42F007F9CA8 /* AreaChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C02C1744B42F007F9CA8 /* AreaChart.m */; };
+		BF35C0301744B445007F9CA8 /* BarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C02F1744B445007F9CA8 /* BarChart.m */; };
+		BF35C0331744B45B007F9CA8 /* CombinedChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0321744B45B007F9CA8 /* CombinedChart.m */; };
+		BF35C0361744B476007F9CA8 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0351744B476007F9CA8 /* PieChart.m */; };
+		BF35C0391744B4C2007F9CA8 /* CategoryAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0381744B4C2007F9CA8 /* CategoryAxis.m */; };
+		BF35C03C1744B506007F9CA8 /* LinearAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C03B1744B506007F9CA8 /* LinearAxis.m */; };
+		BF35C03F1744B559007F9CA8 /* RoundLocalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C03E1744B558007F9CA8 /* RoundLocalPoint.m */; };
+		BF35C0421744B570007F9CA8 /* RoundPointMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0411744B56F007F9CA8 /* RoundPointMapping.m */; };
+		BF35C0461744B5CF007F9CA8 /* Series.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0451744B5CF007F9CA8 /* Series.m */; };
+		BF35C0491744B5FA007F9CA8 /* CartesianSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0481744B5FA007F9CA8 /* CartesianSeries.m */; };
+		BF35C04C1744B613007F9CA8 /* ColumnSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C04B1744B613007F9CA8 /* ColumnSeries.m */; };
+		BF35C04F1744B62F007F9CA8 /* BarSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C04E1744B62F007F9CA8 /* BarSeries.m */; };
+		BF35C0521744B64B007F9CA8 /* AreaSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0511744B64A007F9CA8 /* AreaSeries.m */; };
+		BF35C0551744B66A007F9CA8 /* RoundSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0541744B66A007F9CA8 /* RoundSeries.m */; };
+		BF35C0581744B689007F9CA8 /* PieSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0571744B689007F9CA8 /* PieSeries.m */; };
+		BF35C05B1744B6D2007F9CA8 /* CircleLegend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C05A1744B6D2007F9CA8 /* CircleLegend.m */; };
+		BF35C05E1744B6E7007F9CA8 /* DiamondLegend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C05D1744B6E7007F9CA8 /* DiamondLegend.m */; };
+		BF35C0611744B6FC007F9CA8 /* SquareLegend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0601744B6FC007F9CA8 /* SquareLegend.m */; };
+		BF35C0641744B710007F9CA8 /* TriangleLegend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0631744B710007F9CA8 /* TriangleLegend.m */; };
+		BF35C0671744B8F8007F9CA8 /* AxisLabelSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = BF35C0661744B8F7007F9CA8 /* AxisLabelSetting.m */; };
+		BF42DC0C175C775F009A2EEE /* AnimBarSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42DC0B175C775D009A2EEE /* AnimBarSeries.m */; };
+		BF4347781758970A00100A7B /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4347771758970800100A7B /* CircleLayer.m */; };
+		BF4C1BA61749BA79007CCF6A /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4C1BA51749BA79007CCF6A /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF5CBB3A174DB46500816169 /* AnimColumnSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CBB39174DB46400816169 /* AnimColumnSeries.m */; };
+		BF5CBB3D174DF37F00816169 /* ThreadPool.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CBB3C174DF37F00816169 /* ThreadPool.m */; };
+		BF5CBB40174E188800816169 /* AnimLineSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5CBB3F174E188700816169 /* AnimLineSeries.m */; };
+		BF6BB27B1770260900E96813 /* NSString+NSChartLabelDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6BB27A1770260900E96813 /* NSString+NSChartLabelDraw.m */; };
+		BF7B7A3F173CBB750088CA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7B7A3E173CBB750088CA6D /* UIKit.framework */; };
+		BF7B7A41173CBB750088CA6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7B7A40173CBB750088CA6D /* Foundation.framework */; };
+		BF7B7A43173CBB750088CA6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7B7A42173CBB750088CA6D /* CoreGraphics.framework */; };
+		BF7B7A49173CBB750088CA6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF7B7A47173CBB750088CA6D /* InfoPlist.strings */; };
+		BF7B7A4B173CBB750088CA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7A4A173CBB750088CA6D /* main.m */; };
+		BF7B7A4F173CBB750088CA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7A4E173CBB750088CA6D /* AppDelegate.m */; };
+		BF7B7A51173CBB750088CA6D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7B7A50173CBB750088CA6D /* Default.png */; };
+		BF7B7A53173CBB750088CA6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7B7A52173CBB750088CA6D /* Default@2x.png */; };
+		BF7B7A55173CBB750088CA6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7B7A54173CBB750088CA6D /* Default-568h@2x.png */; };
+		BF7B7A95173CBD050088CA6D /* GridLine.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7A94173CBD050088CA6D /* GridLine.m */; };
+		BF7B7A98173CBDDF0088CA6D /* AxisBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7A97173CBDDF0088CA6D /* AxisBase.m */; };
+		BF7B7A9C173CBE270088CA6D /* AxisLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7A9B173CBE270088CA6D /* AxisLabel.m */; };
+		BF7B7A9F173CBE4F0088CA6D /* LocalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7A9E173CBE4F0088CA6D /* LocalPoint.m */; };
+		BF7B7AA2173CBE660088CA6D /* PointMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7AA1173CBE660088CA6D /* PointMapping.m */; };
+		BF7B7AA5173CBE7E0088CA6D /* ChartEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7AA4173CBE7E0088CA6D /* ChartEvent.m */; };
+		BF7B7AA8173CBE960088CA6D /* GradientBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7AA7173CBE960088CA6D /* GradientBase.m */; };
+		BF7B7AAD173CBF010088CA6D /* Legend.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7AAC173CBF010088CA6D /* Legend.m */; };
+		BF7B7AB0173CBF220088CA6D /* DrawUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7AAF173CBF220088CA6D /* DrawUtils.m */; };
+		BF7B7AB3173CBF320088CA6D /* MathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7AB2173CBF320088CA6D /* MathHelper.m */; };
+		BF7B7AB6173CBF440088CA6D /* ReflectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B7AB5173CBF440088CA6D /* ReflectUtils.m */; };
+		BF8033DF174CA47E0085B92D /* LineSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8033DE174CA47D0085B92D /* LineSeries.m */; };
+		BF8033E2174CB9C60085B92D /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8033E1174CB9C50085B92D /* Circle.m */; };
+		BF8033E5174CC0EC0085B92D /* LineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8033E4174CC0EB0085B92D /* LineLayer.m */; };
+		BF818D8A174B0A0600DCA451 /* RoundLabelDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF818D89174B0A0500DCA451 /* RoundLabelDrawer.m */; };
+		BF818D8D174B109300DCA451 /* LabelPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF818D8C174B109300DCA451 /* LabelPoint.m */; };
+		BF83CC901745DD1F00A0E925 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF83CC8B1745BD2B00A0E925 /* QuartzCore.framework */; };
+		BF83CC96174600F200A0E925 /* CartesianChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83CC95174600F100A0E925 /* CartesianChart.m */; };
+		BF83CC99174604CE00A0E925 /* ChartTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83CC98174604C500A0E925 /* ChartTestViewController.m */; };
+		BF83CC9C1746057900A0E925 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83CC9B1746057900A0E925 /* Stroke.m */; };
+		BF83CC9F1746059100A0E925 /* AxisStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83CC9E1746059100A0E925 /* AxisStroke.m */; };
+		BF91DB67175D8B2F00D10031 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91DB66175D8B2F00D10031 /* CoreText.framework */; };
+		BF91DB6A175DAFC900D10031 /* DialChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91DB69175DAFC900D10031 /* DialChart.m */; };
+		BF91DB6D175DB06000D10031 /* DialAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91DB6C175DB06000D10031 /* DialAxis.m */; };
+		BFA77D6017641F2F0040D5E9 /* ChartVO.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA77D5F17641F2F0040D5E9 /* ChartVO.m */; };
+		BFB2D1281A79239F00DE0D70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB2D1271A79239F00DE0D70 /* Images.xcassets */; };
+		BFBD7974177C23A600BD89E6 /* SeriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD7973177C23A600BD89E6 /* SeriesModel.m */; };
+		BFC1C13717616E450042F263 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC1C13617616E450042F263 /* Area.m */; };
+		BFC1C13A1761C4EC0042F263 /* ChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC1C1391761C4EC0042F263 /* ChartFactory.m */; };
+		BFCAA70217792DEA00BCE1F0 /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCAA70117792DE900BCE1F0 /* CALayer+Additions.m */; };
+		BFCAA70517793AE300BCE1F0 /* AreaShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCAA70417793AE000BCE1F0 /* AreaShapeLayer.m */; };
+		BFD5DBD9175EE901003C0DC2 /* Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD5DBD8175EE900003C0DC2 /* Gradient.m */; };
+		BFD5DBDC175EE9B8003C0DC2 /* RadialGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD5DBDB175EE9B7003C0DC2 /* RadialGradient.m */; };
+		BFD5DBDE175F2E00003C0DC2 /* pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD5DBDD175F2E00003C0DC2 /* pointer.png */; };
+		BFD5DBE1175F2F89003C0DC2 /* ImageLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD5DBE0175F2F87003C0DC2 /* ImageLayer.m */; };
+		BFD5DBE4175F35B8003C0DC2 /* DialSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD5DBE3175F35B8003C0DC2 /* DialSeries.m */; };
+		BFDE6CC5178FD2C5008CFE5E /* ChartConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE6CC4178FD2C5008CFE5E /* ChartConstants.m */; };
+		BFE1B4471772A8E500E31FA3 /* AnimationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE1B4461772A8E500E31FA3 /* AnimationUtils.m */; };
+		BFE1B44A1772D28500E31FA3 /* RadarSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE1B4491772D28300E31FA3 /* RadarSeries.m */; };
+		BFE1B44D1772D29C00E31FA3 /* RadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE1B44C1772D29B00E31FA3 /* RadarChart.m */; };
+		BFED5EB61773E4AF0026D4FE /* RadarAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = BFED5EB51773E4AF0026D4FE /* RadarAxis.m */; };
+		BFF1FDAC178A800100BD826F /* AxisCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FDAB178A800100BD826F /* AxisCreator.m */; };
+		BFF1FDAF178A800F00BD826F /* AxisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FDAE178A800F00BD826F /* AxisModel.m */; };
+		BFF1FDB2178A802300BD826F /* SeriesCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FDB1178A802300BD826F /* SeriesCreator.m */; };
+		BFF1FDB5178A803100BD826F /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FDB4178A803100BD826F /* ChartModel.m */; };
+		BFF1FDB8178A804700BD826F /* ChartParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FDB7178A804700BD826F /* ChartParser.m */; };
+		BFF1FDBB178A806F00BD826F /* ChartFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FDBA178A806F00BD826F /* ChartFacade.m */; };
+		BFF1FDBE178A808900BD826F /* ChartLegendCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FDBD178A808900BD826F /* ChartLegendCreator.m */; };
+		BFF1FDC1178AAEF100BD826F /* ChartCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF1FDC0178AAEF000BD826F /* ChartCreator.m */; };
+		BFFD0537174A0D4800EFFC12 /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD0536174A0D4800EFFC12 /* ChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF0473061763277E00FE66A6 /* ChartViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewViewController.h; sourceTree = "<group>"; };
+		BF0473071763277F00FE66A6 /* ChartViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewViewController.m; sourceTree = "<group>"; };
+		BF1A286D176ED754000EA5BC /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		BF1A286E176ED754000EA5BC /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		BF1A2870176EDDB3000EA5BC /* Diamon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diamon.h; sourceTree = "<group>"; };
+		BF1A2871176EDDB3000EA5BC /* Diamon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diamon.m; sourceTree = "<group>"; };
+		BF287991174B5A2D007F4182 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		BF287992174B5A2D007F4182 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		BF287994174B62D5007F4182 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		BF287995174B62D5007F4182 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		BF28799A174B6774007F4182 /* Column.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Column.h; sourceTree = "<group>"; };
+		BF28799B174B6774007F4182 /* Column.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Column.m; sourceTree = "<group>"; };
+		BF28799D174B69AB007F4182 /* RectLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectLayer.h; sourceTree = "<group>"; };
+		BF28799E174B69AC007F4182 /* RectLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectLayer.m; sourceTree = "<group>"; };
+		BF2879A0174B6AF9007F4182 /* BaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLayer.h; sourceTree = "<group>"; };
+		BF2879A1174B6AF9007F4182 /* BaseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLayer.m; sourceTree = "<group>"; };
+		BF2879A3174B6C85007F4182 /* SliceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliceLayer.h; sourceTree = "<group>"; };
+		BF2879A4174B6C86007F4182 /* SliceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliceLayer.m; sourceTree = "<group>"; };
+		BF317F7A174EF46E003AD514 /* LineGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGradient.h; sourceTree = "<group>"; };
+		BF317F7B174EF46E003AD514 /* LineGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGradient.m; sourceTree = "<group>"; };
+		BF317F7D174EF7EF003AD514 /* UIColor+ChartColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChartColor.h"; sourceTree = "<group>"; };
+		BF317F7E174EF7EF003AD514 /* UIColor+ChartColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChartColor.m"; sourceTree = "<group>"; };
+		BF33D980174F3D28007A0F3D /* SCGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGradientLayer.h; sourceTree = "<group>"; };
+		BF33D981174F3D28007A0F3D /* SCGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGradientLayer.m; sourceTree = "<group>"; };
+		BF33D983174F4BB8007A0F3D /* ICALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICALayer.h; sourceTree = "<group>"; };
+		BF35C01C1744B3B5007F9CA8 /* ChartBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartBase.h; sourceTree = "<group>"; };
+		BF35C01D1744B3B5007F9CA8 /* ChartBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartBase.m; sourceTree = "<group>"; };
+		BF35C0221744B3EC007F9CA8 /* RoundChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundChart.h; sourceTree = "<group>"; };
+		BF35C0231744B3EC007F9CA8 /* RoundChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundChart.m; sourceTree = "<group>"; };
+		BF35C0251744B405007F9CA8 /* LineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart.h; sourceTree = "<group>"; };
+		BF35C0261744B405007F9CA8 /* LineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart.m; sourceTree = "<group>"; };
+		BF35C0281744B41B007F9CA8 /* ColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnChart.h; sourceTree = "<group>"; };
+		BF35C0291744B41B007F9CA8 /* ColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnChart.m; sourceTree = "<group>"; };
+		BF35C02B1744B42F007F9CA8 /* AreaChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaChart.h; sourceTree = "<group>"; };
+		BF35C02C1744B42F007F9CA8 /* AreaChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaChart.m; sourceTree = "<group>"; };
+		BF35C02E1744B445007F9CA8 /* BarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChart.h; sourceTree = "<group>"; };
+		BF35C02F1744B445007F9CA8 /* BarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChart.m; sourceTree = "<group>"; };
+		BF35C0311744B45A007F9CA8 /* CombinedChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinedChart.h; sourceTree = "<group>"; };
+		BF35C0321744B45B007F9CA8 /* CombinedChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinedChart.m; sourceTree = "<group>"; };
+		BF35C0341744B476007F9CA8 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
+		BF35C0351744B476007F9CA8 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		BF35C0371744B4C2007F9CA8 /* CategoryAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryAxis.h; sourceTree = "<group>"; };
+		BF35C0381744B4C2007F9CA8 /* CategoryAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryAxis.m; sourceTree = "<group>"; };
+		BF35C03A1744B505007F9CA8 /* LinearAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearAxis.h; sourceTree = "<group>"; };
+		BF35C03B1744B506007F9CA8 /* LinearAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearAxis.m; sourceTree = "<group>"; };
+		BF35C03D1744B558007F9CA8 /* RoundLocalPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundLocalPoint.h; sourceTree = "<group>"; };
+		BF35C03E1744B558007F9CA8 /* RoundLocalPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundLocalPoint.m; sourceTree = "<group>"; };
+		BF35C0401744B56F007F9CA8 /* RoundPointMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundPointMapping.h; sourceTree = "<group>"; };
+		BF35C0411744B56F007F9CA8 /* RoundPointMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundPointMapping.m; sourceTree = "<group>"; };
+		BF35C0431744B5A7007F9CA8 /* ISeries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISeries.h; sourceTree = "<group>"; };
+		BF35C0441744B5CF007F9CA8 /* Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Series.h; sourceTree = "<group>"; };
+		BF35C0451744B5CF007F9CA8 /* Series.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Series.m; sourceTree = "<group>"; };
+		BF35C0471744B5F9007F9CA8 /* CartesianSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartesianSeries.h; sourceTree = "<group>"; };
+		BF35C0481744B5FA007F9CA8 /* CartesianSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartesianSeries.m; sourceTree = "<group>"; };
+		BF35C04A1744B613007F9CA8 /* ColumnSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnSeries.h; sourceTree = "<group>"; };
+		BF35C04B1744B613007F9CA8 /* ColumnSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnSeries.m; sourceTree = "<group>"; };
+		BF35C04D1744B62F007F9CA8 /* BarSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarSeries.h; sourceTree = "<group>"; };
+		BF35C04E1744B62F007F9CA8 /* BarSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarSeries.m; sourceTree = "<group>"; };
+		BF35C0501744B64A007F9CA8 /* AreaSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaSeries.h; sourceTree = "<group>"; };
+		BF35C0511744B64A007F9CA8 /* AreaSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaSeries.m; sourceTree = "<group>"; };
+		BF35C0531744B66A007F9CA8 /* RoundSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundSeries.h; sourceTree = "<group>"; };
+		BF35C0541744B66A007F9CA8 /* RoundSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundSeries.m; sourceTree = "<group>"; };
+		BF35C0561744B688007F9CA8 /* PieSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieSeries.h; sourceTree = "<group>"; };
+		BF35C0571744B689007F9CA8 /* PieSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieSeries.m; sourceTree = "<group>"; };
+		BF35C0591744B6D2007F9CA8 /* CircleLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLegend.h; sourceTree = "<group>"; };
+		BF35C05A1744B6D2007F9CA8 /* CircleLegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLegend.m; sourceTree = "<group>"; };
+		BF35C05C1744B6E7007F9CA8 /* DiamondLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiamondLegend.h; sourceTree = "<group>"; };
+		BF35C05D1744B6E7007F9CA8 /* DiamondLegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiamondLegend.m; sourceTree = "<group>"; };
+		BF35C05F1744B6FC007F9CA8 /* SquareLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareLegend.h; sourceTree = "<group>"; };
+		BF35C0601744B6FC007F9CA8 /* SquareLegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareLegend.m; sourceTree = "<group>"; };
+		BF35C0621744B710007F9CA8 /* TriangleLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleLegend.h; sourceTree = "<group>"; };
+		BF35C0631744B710007F9CA8 /* TriangleLegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleLegend.m; sourceTree = "<group>"; };
+		BF35C0651744B8F6007F9CA8 /* AxisLabelSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisLabelSetting.h; sourceTree = "<group>"; };
+		BF35C0661744B8F7007F9CA8 /* AxisLabelSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisLabelSetting.m; sourceTree = "<group>"; };
+		BF42DC0A175C775C009A2EEE /* AnimBarSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimBarSeries.h; sourceTree = "<group>"; };
+		BF42DC0B175C775D009A2EEE /* AnimBarSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimBarSeries.m; sourceTree = "<group>"; };
+		BF4347761758970700100A7B /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		BF4347771758970800100A7B /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+		BF4C1BA41749BA79007CCF6A /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		BF4C1BA51749BA79007CCF6A /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		BF5CBB37174DAC3C00816169 /* IChartVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IChartVisitor.h; sourceTree = "<group>"; };
+		BF5CBB38174DB46400816169 /* AnimColumnSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimColumnSeries.h; sourceTree = "<group>"; };
+		BF5CBB39174DB46400816169 /* AnimColumnSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimColumnSeries.m; sourceTree = "<group>"; };
+		BF5CBB3B174DF37F00816169 /* ThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPool.h; sourceTree = "<group>"; };
+		BF5CBB3C174DF37F00816169 /* ThreadPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPool.m; sourceTree = "<group>"; };
+		BF5CBB3E174E188600816169 /* AnimLineSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimLineSeries.h; sourceTree = "<group>"; };
+		BF5CBB3F174E188700816169 /* AnimLineSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimLineSeries.m; sourceTree = "<group>"; };
+		BF6BB2791770260900E96813 /* NSString+NSChartLabelDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSChartLabelDraw.h"; sourceTree = "<group>"; };
+		BF6BB27A1770260900E96813 /* NSString+NSChartLabelDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSChartLabelDraw.m"; sourceTree = "<group>"; };
+		BF7B7A3B173CBB750088CA6D /* SmartChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7B7A3E173CBB750088CA6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF7B7A40173CBB750088CA6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF7B7A42173CBB750088CA6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF7B7A46173CBB750088CA6D /* SmartChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartChart-Info.plist"; sourceTree = "<group>"; };
+		BF7B7A48173CBB750088CA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF7B7A4A173CBB750088CA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF7B7A4C173CBB750088CA6D /* SmartChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartChart-Prefix.pch"; sourceTree = "<group>"; };
+		BF7B7A4D173CBB750088CA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF7B7A4E173CBB750088CA6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF7B7A50173CBB750088CA6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF7B7A52173CBB750088CA6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF7B7A54173CBB750088CA6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF7B7A5C173CBB750088CA6D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF7B7A93173CBD050088CA6D /* GridLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridLine.h; sourceTree = "<group>"; };
+		BF7B7A94173CBD050088CA6D /* GridLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridLine.m; sourceTree = "<group>"; };
+		BF7B7A96173CBDDF0088CA6D /* AxisBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisBase.h; sourceTree = "<group>"; };
+		BF7B7A97173CBDDF0088CA6D /* AxisBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisBase.m; sourceTree = "<group>"; };
+		BF7B7A99173CBE0E0088CA6D /* IAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAxis.h; sourceTree = "<group>"; };
+		BF7B7A9A173CBE270088CA6D /* AxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisLabel.h; sourceTree = "<group>"; };
+		BF7B7A9B173CBE270088CA6D /* AxisLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisLabel.m; sourceTree = "<group>"; };
+		BF7B7A9D173CBE4F0088CA6D /* LocalPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalPoint.h; sourceTree = "<group>"; };
+		BF7B7A9E173CBE4F0088CA6D /* LocalPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalPoint.m; sourceTree = "<group>"; };
+		BF7B7AA0173CBE660088CA6D /* PointMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointMapping.h; sourceTree = "<group>"; };
+		BF7B7AA1173CBE660088CA6D /* PointMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointMapping.m; sourceTree = "<group>"; };
+		BF7B7AA3173CBE7E0088CA6D /* ChartEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartEvent.h; sourceTree = "<group>"; };
+		BF7B7AA4173CBE7E0088CA6D /* ChartEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartEvent.m; sourceTree = "<group>"; };
+		BF7B7AA6173CBE960088CA6D /* GradientBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientBase.h; sourceTree = "<group>"; };
+		BF7B7AA7173CBE960088CA6D /* GradientBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientBase.m; sourceTree = "<group>"; };
+		BF7B7AAA173CBEDC0088CA6D /* IStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IStroke.h; sourceTree = "<group>"; };
+		BF7B7AAB173CBF010088CA6D /* Legend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Legend.h; sourceTree = "<group>"; };
+		BF7B7AAC173CBF010088CA6D /* Legend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Legend.m; sourceTree = "<group>"; };
+		BF7B7AAE173CBF220088CA6D /* DrawUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawUtils.h; sourceTree = "<group>"; };
+		BF7B7AAF173CBF220088CA6D /* DrawUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawUtils.m; sourceTree = "<group>"; };
+		BF7B7AB1173CBF320088CA6D /* MathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathHelper.h; sourceTree = "<group>"; };
+		BF7B7AB2173CBF320088CA6D /* MathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathHelper.m; sourceTree = "<group>"; };
+		BF7B7AB4173CBF440088CA6D /* ReflectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectUtils.h; sourceTree = "<group>"; };
+		BF7B7AB5173CBF440088CA6D /* ReflectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectUtils.m; sourceTree = "<group>"; };
+		BF8033DD174CA47D0085B92D /* LineSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSeries.h; sourceTree = "<group>"; };
+		BF8033DE174CA47D0085B92D /* LineSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineSeries.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		BF8033E0174CB9C50085B92D /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		BF8033E1174CB9C50085B92D /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		BF8033E3174CC0EA0085B92D /* LineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayer.h; sourceTree = "<group>"; };
+		BF8033E4174CC0EB0085B92D /* LineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayer.m; sourceTree = "<group>"; };
+		BF818D87174AFE8D00DCA451 /* IChartTouchListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IChartTouchListener.h; sourceTree = "<group>"; };
+		BF818D88174B0A0500DCA451 /* RoundLabelDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundLabelDrawer.h; sourceTree = "<group>"; };
+		BF818D89174B0A0500DCA451 /* RoundLabelDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundLabelDrawer.m; sourceTree = "<group>"; };
+		BF818D8B174B109300DCA451 /* LabelPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelPoint.h; sourceTree = "<group>"; };
+		BF818D8C174B109300DCA451 /* LabelPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelPoint.m; sourceTree = "<group>"; };
+		BF83CC8B1745BD2B00A0E925 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF83CC94174600F100A0E925 /* CartesianChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartesianChart.h; sourceTree = "<group>"; };
+		BF83CC95174600F100A0E925 /* CartesianChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartesianChart.m; sourceTree = "<group>"; };
+		BF83CC97174604C100A0E925 /* ChartTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTestViewController.h; sourceTree = "<group>"; };
+		BF83CC98174604C500A0E925 /* ChartTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTestViewController.m; sourceTree = "<group>"; };
+		BF83CC9A1746057900A0E925 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		BF83CC9B1746057900A0E925 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		BF83CC9D1746059100A0E925 /* AxisStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisStroke.h; sourceTree = "<group>"; };
+		BF83CC9E1746059100A0E925 /* AxisStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisStroke.m; sourceTree = "<group>"; };
+		BF91DB66175D8B2F00D10031 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BF91DB68175DAFC900D10031 /* DialChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialChart.h; sourceTree = "<group>"; };
+		BF91DB69175DAFC900D10031 /* DialChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialChart.m; sourceTree = "<group>"; };
+		BF91DB6B175DB06000D10031 /* DialAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialAxis.h; sourceTree = "<group>"; };
+		BF91DB6C175DB06000D10031 /* DialAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialAxis.m; sourceTree = "<group>"; };
+		BFA77D5E17641F2F0040D5E9 /* ChartVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartVO.h; sourceTree = "<group>"; };
+		BFA77D5F17641F2F0040D5E9 /* ChartVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartVO.m; sourceTree = "<group>"; };
+		BFB2D1271A79239F00DE0D70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFBD7972177C23A600BD89E6 /* SeriesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesModel.h; sourceTree = "<group>"; };
+		BFBD7973177C23A600BD89E6 /* SeriesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriesModel.m; sourceTree = "<group>"; };
+		BFC1C13517616E450042F263 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		BFC1C13617616E450042F263 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
+		BFC1C1381761C4EC0042F263 /* ChartFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartFactory.h; sourceTree = "<group>"; };
+		BFC1C1391761C4EC0042F263 /* ChartFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartFactory.m; sourceTree = "<group>"; };
+		BFCAA70017792DE800BCE1F0 /* CALayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
+		BFCAA70117792DE900BCE1F0 /* CALayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
+		BFCAA70317793ADE00BCE1F0 /* AreaShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaShapeLayer.h; sourceTree = "<group>"; };
+		BFCAA70417793AE000BCE1F0 /* AreaShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaShapeLayer.m; sourceTree = "<group>"; };
+		BFD5DBD7175EE900003C0DC2 /* Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gradient.h; sourceTree = "<group>"; };
+		BFD5DBD8175EE900003C0DC2 /* Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gradient.m; sourceTree = "<group>"; };
+		BFD5DBDA175EE9B7003C0DC2 /* RadialGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialGradient.h; sourceTree = "<group>"; };
+		BFD5DBDB175EE9B7003C0DC2 /* RadialGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradient.m; sourceTree = "<group>"; };
+		BFD5DBDD175F2E00003C0DC2 /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
+		BFD5DBDF175F2F86003C0DC2 /* ImageLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLayer.h; sourceTree = "<group>"; };
+		BFD5DBE0175F2F87003C0DC2 /* ImageLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLayer.m; sourceTree = "<group>"; };
+		BFD5DBE2175F35B7003C0DC2 /* DialSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialSeries.h; sourceTree = "<group>"; };
+		BFD5DBE3175F35B8003C0DC2 /* DialSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialSeries.m; sourceTree = "<group>"; };
+		BFDE6CC3178FD2C5008CFE5E /* ChartConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartConstants.h; sourceTree = "<group>"; };
+		BFDE6CC4178FD2C5008CFE5E /* ChartConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartConstants.m; sourceTree = "<group>"; };
+		BFE1B4451772A8E500E31FA3 /* AnimationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationUtils.h; sourceTree = "<group>"; };
+		BFE1B4461772A8E500E31FA3 /* AnimationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationUtils.m; sourceTree = "<group>"; };
+		BFE1B4481772D28200E31FA3 /* RadarSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarSeries.h; sourceTree = "<group>"; };
+		BFE1B4491772D28300E31FA3 /* RadarSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarSeries.m; sourceTree = "<group>"; };
+		BFE1B44B1772D29A00E31FA3 /* RadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarChart.h; sourceTree = "<group>"; };
+		BFE1B44C1772D29B00E31FA3 /* RadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarChart.m; sourceTree = "<group>"; };
+		BFED5EB41773E4AF0026D4FE /* RadarAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarAxis.h; sourceTree = "<group>"; };
+		BFED5EB51773E4AF0026D4FE /* RadarAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarAxis.m; sourceTree = "<group>"; };
+		BFF1FDAA178A800100BD826F /* AxisCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisCreator.h; sourceTree = "<group>"; };
+		BFF1FDAB178A800100BD826F /* AxisCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisCreator.m; sourceTree = "<group>"; };
+		BFF1FDAD178A800F00BD826F /* AxisModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisModel.h; sourceTree = "<group>"; };
+		BFF1FDAE178A800F00BD826F /* AxisModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisModel.m; sourceTree = "<group>"; };
+		BFF1FDB0178A802300BD826F /* SeriesCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriesCreator.h; sourceTree = "<group>"; };
+		BFF1FDB1178A802300BD826F /* SeriesCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriesCreator.m; sourceTree = "<group>"; };
+		BFF1FDB3178A803100BD826F /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
+		BFF1FDB4178A803100BD826F /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		BFF1FDB6178A804700BD826F /* ChartParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartParser.h; sourceTree = "<group>"; };
+		BFF1FDB7178A804700BD826F /* ChartParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartParser.m; sourceTree = "<group>"; };
+		BFF1FDB9178A806F00BD826F /* ChartFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartFacade.h; sourceTree = "<group>"; };
+		BFF1FDBA178A806F00BD826F /* ChartFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartFacade.m; sourceTree = "<group>"; };
+		BFF1FDBC178A808900BD826F /* ChartLegendCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartLegendCreator.h; sourceTree = "<group>"; };
+		BFF1FDBD178A808900BD826F /* ChartLegendCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartLegendCreator.m; sourceTree = "<group>"; };
+		BFF1FDBF178AAEEF00BD826F /* ChartCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartCreator.h; sourceTree = "<group>"; };
+		BFF1FDC0178AAEF000BD826F /* ChartCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartCreator.m; sourceTree = "<group>"; };
+		BFFD0535174A0D4800EFFC12 /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		BFFD0536174A0D4800EFFC12 /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF7B7A38173CBB750088CA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91DB67175D8B2F00D10031 /* CoreText.framework in Frameworks */,
+				BF83CC901745DD1F00A0E925 /* QuartzCore.framework in Frameworks */,
+				BF7B7A3F173CBB750088CA6D /* UIKit.framework in Frameworks */,
+				BF7B7A41173CBB750088CA6D /* Foundation.framework in Frameworks */,
+				BF7B7A43173CBB750088CA6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF287990174B57C1007F4182 /* shape */ = {
+			isa = PBXGroup;
+			children = (
+				BF2879A3174B6C85007F4182 /* SliceLayer.h */,
+				BF2879A4174B6C86007F4182 /* SliceLayer.m */,
+				BF287991174B5A2D007F4182 /* Shape.h */,
+				BF287992174B5A2D007F4182 /* Shape.m */,
+				BF287994174B62D5007F4182 /* Line.h */,
+				BF287995174B62D5007F4182 /* Line.m */,
+				BF28799A174B6774007F4182 /* Column.h */,
+				BF28799B174B6774007F4182 /* Column.m */,
+				BF28799D174B69AB007F4182 /* RectLayer.h */,
+				BF28799E174B69AC007F4182 /* RectLayer.m */,
+				BF2879A0174B6AF9007F4182 /* BaseLayer.h */,
+				BF2879A1174B6AF9007F4182 /* BaseLayer.m */,
+				BF8033E0174CB9C50085B92D /* Circle.h */,
+				BF8033E1174CB9C50085B92D /* Circle.m */,
+				BF8033E3174CC0EA0085B92D /* LineLayer.h */,
+				BF8033E4174CC0EB0085B92D /* LineLayer.m */,
+				BF317F7A174EF46E003AD514 /* LineGradient.h */,
+				BF317F7B174EF46E003AD514 /* LineGradient.m */,
+				BF317F7D174EF7EF003AD514 /* UIColor+ChartColor.h */,
+				BF317F7E174EF7EF003AD514 /* UIColor+ChartColor.m */,
+				BF33D980174F3D28007A0F3D /* SCGradientLayer.h */,
+				BF33D981174F3D28007A0F3D /* SCGradientLayer.m */,
+				BF33D983174F4BB8007A0F3D /* ICALayer.h */,
+				BF4347761758970700100A7B /* CircleLayer.h */,
+				BF4347771758970800100A7B /* CircleLayer.m */,
+				BFD5DBD7175EE900003C0DC2 /* Gradient.h */,
+				BFD5DBD8175EE900003C0DC2 /* Gradient.m */,
+				BFD5DBDA175EE9B7003C0DC2 /* RadialGradient.h */,
+				BFD5DBDB175EE9B7003C0DC2 /* RadialGradient.m */,
+				BFD5DBDF175F2F86003C0DC2 /* ImageLayer.h */,
+				BFD5DBE0175F2F87003C0DC2 /* ImageLayer.m */,
+				BFC1C13517616E450042F263 /* Area.h */,
+				BFC1C13617616E450042F263 /* Area.m */,
+				BF1A286D176ED754000EA5BC /* Triangle.h */,
+				BF1A286E176ED754000EA5BC /* Triangle.m */,
+				BF1A2870176EDDB3000EA5BC /* Diamon.h */,
+				BF1A2871176EDDB3000EA5BC /* Diamon.m */,
+				BFCAA70017792DE800BCE1F0 /* CALayer+Additions.h */,
+				BFCAA70117792DE900BCE1F0 /* CALayer+Additions.m */,
+				BFCAA70317793ADE00BCE1F0 /* AreaShapeLayer.h */,
+				BFCAA70417793AE000BCE1F0 /* AreaShapeLayer.m */,
+			);
+			path = shape;
+			sourceTree = "<group>";
+		};
+		BF35C01B1744B3A0007F9CA8 /* chart */ = {
+			isa = PBXGroup;
+			children = (
+				BF35C01C1744B3B5007F9CA8 /* ChartBase.h */,
+				BF35C01D1744B3B5007F9CA8 /* ChartBase.m */,
+				BF35C0221744B3EC007F9CA8 /* RoundChart.h */,
+				BF35C0231744B3EC007F9CA8 /* RoundChart.m */,
+				BF35C0251744B405007F9CA8 /* LineChart.h */,
+				BF35C0261744B405007F9CA8 /* LineChart.m */,
+				BF35C0281744B41B007F9CA8 /* ColumnChart.h */,
+				BF35C0291744B41B007F9CA8 /* ColumnChart.m */,
+				BF35C02B1744B42F007F9CA8 /* AreaChart.h */,
+				BF35C02C1744B42F007F9CA8 /* AreaChart.m */,
+				BF35C02E1744B445007F9CA8 /* BarChart.h */,
+				BF35C02F1744B445007F9CA8 /* BarChart.m */,
+				BF35C0311744B45A007F9CA8 /* CombinedChart.h */,
+				BF35C0321744B45B007F9CA8 /* CombinedChart.m */,
+				BF35C0341744B476007F9CA8 /* PieChart.h */,
+				BF35C0351744B476007F9CA8 /* PieChart.m */,
+				BF83CC94174600F100A0E925 /* CartesianChart.h */,
+				BF83CC95174600F100A0E925 /* CartesianChart.m */,
+				BFFD0535174A0D4800EFFC12 /* ChartView.h */,
+				BFFD0536174A0D4800EFFC12 /* ChartView.m */,
+				BF5CBB37174DAC3C00816169 /* IChartVisitor.h */,
+				BF91DB68175DAFC900D10031 /* DialChart.h */,
+				BF91DB69175DAFC900D10031 /* DialChart.m */,
+				BFC1C1381761C4EC0042F263 /* ChartFactory.h */,
+				BFC1C1391761C4EC0042F263 /* ChartFactory.m */,
+				BFE1B44B1772D29A00E31FA3 /* RadarChart.h */,
+				BFE1B44C1772D29B00E31FA3 /* RadarChart.m */,
+			);
+			path = chart;
+			sourceTree = "<group>";
+		};
+		BF4C1BA31749BA79007CCF6A /* jsonkit */ = {
+			isa = PBXGroup;
+			children = (
+				BF4C1BA41749BA79007CCF6A /* JSONKit.h */,
+				BF4C1BA51749BA79007CCF6A /* JSONKit.m */,
+			);
+			path = jsonkit;
+			sourceTree = "<group>";
+		};
+		BF7B7A32173CBB750088CA6D = {
+			isa = PBXGroup;
+			children = (
+				BF7B7A44173CBB750088CA6D /* SmartChart */,
+				BF7B7A3D173CBB750088CA6D /* Frameworks */,
+				BF7B7A3C173CBB750088CA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7B7A3C173CBB750088CA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7A3B173CBB750088CA6D /* SmartChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF7B7A3D173CBB750088CA6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF91DB66175D8B2F00D10031 /* CoreText.framework */,
+				BF83CC8B1745BD2B00A0E925 /* QuartzCore.framework */,
+				BF7B7A3E173CBB750088CA6D /* UIKit.framework */,
+				BF7B7A40173CBB750088CA6D /* Foundation.framework */,
+				BF7B7A42173CBB750088CA6D /* CoreGraphics.framework */,
+				BF7B7A5C173CBB750088CA6D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF7B7A44173CBB750088CA6D /* SmartChart */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7A85173CBC820088CA6D /* com */,
+				BF7B7A4D173CBB750088CA6D /* AppDelegate.h */,
+				BF7B7A4E173CBB750088CA6D /* AppDelegate.m */,
+				BFB2D1271A79239F00DE0D70 /* Images.xcassets */,
+				BF7B7A45173CBB750088CA6D /* Supporting Files */,
+			);
+			path = SmartChart;
+			sourceTree = "<group>";
+		};
+		BF7B7A45173CBB750088CA6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD5DBDD175F2E00003C0DC2 /* pointer.png */,
+				BF7B7A46173CBB750088CA6D /* SmartChart-Info.plist */,
+				BF7B7A47173CBB750088CA6D /* InfoPlist.strings */,
+				BF7B7A4A173CBB750088CA6D /* main.m */,
+				BF7B7A4C173CBB750088CA6D /* SmartChart-Prefix.pch */,
+				BF7B7A50173CBB750088CA6D /* Default.png */,
+				BF7B7A52173CBB750088CA6D /* Default@2x.png */,
+				BF7B7A54173CBB750088CA6D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF7B7A85173CBC820088CA6D /* com */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7A86173CBC820088CA6D /* lecast */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		BF7B7A86173CBC820088CA6D /* lecast */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7A87173CBC820088CA6D /* smartchart */,
+			);
+			path = lecast;
+			sourceTree = "<group>";
+		};
+		BF7B7A87173CBC820088CA6D /* smartchart */ = {
+			isa = PBXGroup;
+			children = (
+				BFBD796E177C231900BD89E6 /* api */,
+				BF287990174B57C1007F4182 /* shape */,
+				BF818D86174AFE6B00DCA451 /* listener */,
+				BF4C1BA31749BA79007CCF6A /* jsonkit */,
+				BF35C01B1744B3A0007F9CA8 /* chart */,
+				BF7B7A88173CBC820088CA6D /* axis */,
+				BF7B7A89173CBC820088CA6D /* common */,
+				BF7B7A8A173CBC820088CA6D /* event */,
+				BF7B7A8B173CBC820088CA6D /* exception */,
+				BF7B7A8C173CBC820088CA6D /* graphics */,
+				BF7B7A8D173CBC820088CA6D /* gridline */,
+				BF7B7A8E173CBC820088CA6D /* legend */,
+				BF7B7A8F173CBC820088CA6D /* renderer */,
+				BF7B7A90173CBC820088CA6D /* series */,
+				BF7B7A91173CBC820088CA6D /* tools */,
+				BF7B7A92173CBC820088CA6D /* utils */,
+				BF83CC97174604C100A0E925 /* ChartTestViewController.h */,
+				BF83CC98174604C500A0E925 /* ChartTestViewController.m */,
+				BF0473061763277E00FE66A6 /* ChartViewViewController.h */,
+				BF0473071763277F00FE66A6 /* ChartViewViewController.m */,
+			);
+			path = smartchart;
+			sourceTree = "<group>";
+		};
+		BF7B7A88173CBC820088CA6D /* axis */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7A96173CBDDF0088CA6D /* AxisBase.h */,
+				BF7B7A97173CBDDF0088CA6D /* AxisBase.m */,
+				BF7B7A99173CBE0E0088CA6D /* IAxis.h */,
+				BF7B7A9A173CBE270088CA6D /* AxisLabel.h */,
+				BF7B7A9B173CBE270088CA6D /* AxisLabel.m */,
+				BF35C0371744B4C2007F9CA8 /* CategoryAxis.h */,
+				BF35C0381744B4C2007F9CA8 /* CategoryAxis.m */,
+				BF35C03A1744B505007F9CA8 /* LinearAxis.h */,
+				BF35C03B1744B506007F9CA8 /* LinearAxis.m */,
+				BF35C0651744B8F6007F9CA8 /* AxisLabelSetting.h */,
+				BF35C0661744B8F7007F9CA8 /* AxisLabelSetting.m */,
+				BF91DB6B175DB06000D10031 /* DialAxis.h */,
+				BF91DB6C175DB06000D10031 /* DialAxis.m */,
+				BFED5EB41773E4AF0026D4FE /* RadarAxis.h */,
+				BFED5EB51773E4AF0026D4FE /* RadarAxis.m */,
+			);
+			path = axis;
+			sourceTree = "<group>";
+		};
+		BF7B7A89173CBC820088CA6D /* common */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7A9D173CBE4F0088CA6D /* LocalPoint.h */,
+				BF7B7A9E173CBE4F0088CA6D /* LocalPoint.m */,
+				BF7B7AA0173CBE660088CA6D /* PointMapping.h */,
+				BF7B7AA1173CBE660088CA6D /* PointMapping.m */,
+				BF35C03D1744B558007F9CA8 /* RoundLocalPoint.h */,
+				BF35C03E1744B558007F9CA8 /* RoundLocalPoint.m */,
+				BF35C0401744B56F007F9CA8 /* RoundPointMapping.h */,
+				BF35C0411744B56F007F9CA8 /* RoundPointMapping.m */,
+				BF818D88174B0A0500DCA451 /* RoundLabelDrawer.h */,
+				BF818D89174B0A0500DCA451 /* RoundLabelDrawer.m */,
+				BF818D8B174B109300DCA451 /* LabelPoint.h */,
+				BF818D8C174B109300DCA451 /* LabelPoint.m */,
+				BFA77D5E17641F2F0040D5E9 /* ChartVO.h */,
+				BFA77D5F17641F2F0040D5E9 /* ChartVO.m */,
+				BF6BB2791770260900E96813 /* NSString+NSChartLabelDraw.h */,
+				BF6BB27A1770260900E96813 /* NSString+NSChartLabelDraw.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		BF7B7A8A173CBC820088CA6D /* event */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7AA3173CBE7E0088CA6D /* ChartEvent.h */,
+				BF7B7AA4173CBE7E0088CA6D /* ChartEvent.m */,
+			);
+			path = event;
+			sourceTree = "<group>";
+		};
+		BF7B7A8B173CBC820088CA6D /* exception */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = exception;
+			sourceTree = "<group>";
+		};
+		BF7B7A8C173CBC820088CA6D /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7AA9173CBEBA0088CA6D /* stroke */,
+				BF7B7AA6173CBE960088CA6D /* GradientBase.h */,
+				BF7B7AA7173CBE960088CA6D /* GradientBase.m */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		BF7B7A8D173CBC820088CA6D /* gridline */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7A93173CBD050088CA6D /* GridLine.h */,
+				BF7B7A94173CBD050088CA6D /* GridLine.m */,
+			);
+			path = gridline;
+			sourceTree = "<group>";
+		};
+		BF7B7A8E173CBC820088CA6D /* legend */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7AAB173CBF010088CA6D /* Legend.h */,
+				BF7B7AAC173CBF010088CA6D /* Legend.m */,
+				BF35C0591744B6D2007F9CA8 /* CircleLegend.h */,
+				BF35C05A1744B6D2007F9CA8 /* CircleLegend.m */,
+				BF35C05C1744B6E7007F9CA8 /* DiamondLegend.h */,
+				BF35C05D1744B6E7007F9CA8 /* DiamondLegend.m */,
+				BF35C05F1744B6FC007F9CA8 /* SquareLegend.h */,
+				BF35C0601744B6FC007F9CA8 /* SquareLegend.m */,
+				BF35C0621744B710007F9CA8 /* TriangleLegend.h */,
+				BF35C0631744B710007F9CA8 /* TriangleLegend.m */,
+			);
+			path = legend;
+			sourceTree = "<group>";
+		};
+		BF7B7A8F173CBC820088CA6D /* renderer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = renderer;
+			sourceTree = "<group>";
+		};
+		BF7B7A90173CBC820088CA6D /* series */ = {
+			isa = PBXGroup;
+			children = (
+				BF35C0431744B5A7007F9CA8 /* ISeries.h */,
+				BF35C0441744B5CF007F9CA8 /* Series.h */,
+				BF35C0451744B5CF007F9CA8 /* Series.m */,
+				BF35C0471744B5F9007F9CA8 /* CartesianSeries.h */,
+				BF35C0481744B5FA007F9CA8 /* CartesianSeries.m */,
+				BF35C04A1744B613007F9CA8 /* ColumnSeries.h */,
+				BF35C04B1744B613007F9CA8 /* ColumnSeries.m */,
+				BF8033DD174CA47D0085B92D /* LineSeries.h */,
+				BF8033DE174CA47D0085B92D /* LineSeries.m */,
+				BF35C04D1744B62F007F9CA8 /* BarSeries.h */,
+				BF35C04E1744B62F007F9CA8 /* BarSeries.m */,
+				BF35C0501744B64A007F9CA8 /* AreaSeries.h */,
+				BF35C0511744B64A007F9CA8 /* AreaSeries.m */,
+				BF35C0531744B66A007F9CA8 /* RoundSeries.h */,
+				BF35C0541744B66A007F9CA8 /* RoundSeries.m */,
+				BF35C0561744B688007F9CA8 /* PieSeries.h */,
+				BF35C0571744B689007F9CA8 /* PieSeries.m */,
+				BF5CBB38174DB46400816169 /* AnimColumnSeries.h */,
+				BF5CBB39174DB46400816169 /* AnimColumnSeries.m */,
+				BF5CBB3E174E188600816169 /* AnimLineSeries.h */,
+				BF5CBB3F174E188700816169 /* AnimLineSeries.m */,
+				BF42DC0A175C775C009A2EEE /* AnimBarSeries.h */,
+				BF42DC0B175C775D009A2EEE /* AnimBarSeries.m */,
+				BFD5DBE2175F35B7003C0DC2 /* DialSeries.h */,
+				BFD5DBE3175F35B8003C0DC2 /* DialSeries.m */,
+				BFE1B4481772D28200E31FA3 /* RadarSeries.h */,
+				BFE1B4491772D28300E31FA3 /* RadarSeries.m */,
+			);
+			path = series;
+			sourceTree = "<group>";
+		};
+		BF7B7A91173CBC820088CA6D /* tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		BF7B7A92173CBC820088CA6D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE6CC3178FD2C5008CFE5E /* ChartConstants.h */,
+				BFDE6CC4178FD2C5008CFE5E /* ChartConstants.m */,
+				BF7B7AAE173CBF220088CA6D /* DrawUtils.h */,
+				BF7B7AAF173CBF220088CA6D /* DrawUtils.m */,
+				BF7B7AB1173CBF320088CA6D /* MathHelper.h */,
+				BF7B7AB2173CBF320088CA6D /* MathHelper.m */,
+				BF7B7AB4173CBF440088CA6D /* ReflectUtils.h */,
+				BF7B7AB5173CBF440088CA6D /* ReflectUtils.m */,
+				BF5CBB3B174DF37F00816169 /* ThreadPool.h */,
+				BF5CBB3C174DF37F00816169 /* ThreadPool.m */,
+				BFE1B4451772A8E500E31FA3 /* AnimationUtils.h */,
+				BFE1B4461772A8E500E31FA3 /* AnimationUtils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		BF7B7AA9173CBEBA0088CA6D /* stroke */ = {
+			isa = PBXGroup;
+			children = (
+				BF7B7AAA173CBEDC0088CA6D /* IStroke.h */,
+				BF83CC9A1746057900A0E925 /* Stroke.h */,
+				BF83CC9B1746057900A0E925 /* Stroke.m */,
+				BF83CC9D1746059100A0E925 /* AxisStroke.h */,
+				BF83CC9E1746059100A0E925 /* AxisStroke.m */,
+			);
+			path = stroke;
+			sourceTree = "<group>";
+		};
+		BF818D86174AFE6B00DCA451 /* listener */ = {
+			isa = PBXGroup;
+			children = (
+				BF818D87174AFE8D00DCA451 /* IChartTouchListener.h */,
+			);
+			path = listener;
+			sourceTree = "<group>";
+		};
+		BFBD796E177C231900BD89E6 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				BFBD7972177C23A600BD89E6 /* SeriesModel.h */,
+				BFBD7973177C23A600BD89E6 /* SeriesModel.m */,
+				BFF1FDAA178A800100BD826F /* AxisCreator.h */,
+				BFF1FDAB178A800100BD826F /* AxisCreator.m */,
+				BFF1FDAD178A800F00BD826F /* AxisModel.h */,
+				BFF1FDAE178A800F00BD826F /* AxisModel.m */,
+				BFF1FDB0178A802300BD826F /* SeriesCreator.h */,
+				BFF1FDB1178A802300BD826F /* SeriesCreator.m */,
+				BFF1FDB3178A803100BD826F /* ChartModel.h */,
+				BFF1FDB4178A803100BD826F /* ChartModel.m */,
+				BFF1FDB6178A804700BD826F /* ChartParser.h */,
+				BFF1FDB7178A804700BD826F /* ChartParser.m */,
+				BFF1FDB9178A806F00BD826F /* ChartFacade.h */,
+				BFF1FDBA178A806F00BD826F /* ChartFacade.m */,
+				BFF1FDBC178A808900BD826F /* ChartLegendCreator.h */,
+				BFF1FDBD178A808900BD826F /* ChartLegendCreator.m */,
+				BFF1FDBF178AAEEF00BD826F /* ChartCreator.h */,
+				BFF1FDC0178AAEF000BD826F /* ChartCreator.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF7B7A3A173CBB750088CA6D /* SmartChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7B7A6D173CBB750088CA6D /* Build configuration list for PBXNativeTarget "SmartChart" */;
+			buildPhases = (
+				BF7B7A37173CBB750088CA6D /* Sources */,
+				BF7B7A38173CBB750088CA6D /* Frameworks */,
+				BF7B7A39173CBB750088CA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartChart;
+			productName = SmartChart;
+			productReference = BF7B7A3B173CBB750088CA6D /* SmartChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7B7A33173CBB750088CA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Lecast;
+				TargetAttributes = {
+					BF7B7A3A173CBB750088CA6D = {
+						DevelopmentTeam = P8EDS73X2U;
+					};
+				};
+			};
+			buildConfigurationList = BF7B7A36173CBB750088CA6D /* Build configuration list for PBXProject "SmartChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF7B7A32173CBB750088CA6D;
+			productRefGroup = BF7B7A3C173CBB750088CA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF7B7A3A173CBB750088CA6D /* SmartChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF7B7A39173CBB750088CA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7B7A49173CBB750088CA6D /* InfoPlist.strings in Resources */,
+				BF7B7A51173CBB750088CA6D /* Default.png in Resources */,
+				BF7B7A53173CBB750088CA6D /* Default@2x.png in Resources */,
+				BFB2D1281A79239F00DE0D70 /* Images.xcassets in Resources */,
+				BF7B7A55173CBB750088CA6D /* Default-568h@2x.png in Resources */,
+				BFD5DBDE175F2E00003C0DC2 /* pointer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF7B7A37173CBB750088CA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7B7A4B173CBB750088CA6D /* main.m in Sources */,
+				BF7B7A4F173CBB750088CA6D /* AppDelegate.m in Sources */,
+				BF7B7A95173CBD050088CA6D /* GridLine.m in Sources */,
+				BF7B7A98173CBDDF0088CA6D /* AxisBase.m in Sources */,
+				BF7B7A9C173CBE270088CA6D /* AxisLabel.m in Sources */,
+				BF7B7A9F173CBE4F0088CA6D /* LocalPoint.m in Sources */,
+				BF7B7AA2173CBE660088CA6D /* PointMapping.m in Sources */,
+				BF7B7AA5173CBE7E0088CA6D /* ChartEvent.m in Sources */,
+				BF7B7AA8173CBE960088CA6D /* GradientBase.m in Sources */,
+				BF7B7AAD173CBF010088CA6D /* Legend.m in Sources */,
+				BF7B7AB0173CBF220088CA6D /* DrawUtils.m in Sources */,
+				BF7B7AB3173CBF320088CA6D /* MathHelper.m in Sources */,
+				BF7B7AB6173CBF440088CA6D /* ReflectUtils.m in Sources */,
+				BF35C01E1744B3B5007F9CA8 /* ChartBase.m in Sources */,
+				BF35C0241744B3EC007F9CA8 /* RoundChart.m in Sources */,
+				BF35C0271744B405007F9CA8 /* LineChart.m in Sources */,
+				BF35C02A1744B41B007F9CA8 /* ColumnChart.m in Sources */,
+				BF35C02D1744B42F007F9CA8 /* AreaChart.m in Sources */,
+				BF35C0301744B445007F9CA8 /* BarChart.m in Sources */,
+				BF35C0331744B45B007F9CA8 /* CombinedChart.m in Sources */,
+				BF35C0361744B476007F9CA8 /* PieChart.m in Sources */,
+				BF35C0391744B4C2007F9CA8 /* CategoryAxis.m in Sources */,
+				BF35C03C1744B506007F9CA8 /* LinearAxis.m in Sources */,
+				BF35C03F1744B559007F9CA8 /* RoundLocalPoint.m in Sources */,
+				BF35C0421744B570007F9CA8 /* RoundPointMapping.m in Sources */,
+				BF35C0461744B5CF007F9CA8 /* Series.m in Sources */,
+				BF35C0491744B5FA007F9CA8 /* CartesianSeries.m in Sources */,
+				BF35C04C1744B613007F9CA8 /* ColumnSeries.m in Sources */,
+				BF35C04F1744B62F007F9CA8 /* BarSeries.m in Sources */,
+				BF35C0521744B64B007F9CA8 /* AreaSeries.m in Sources */,
+				BF35C0551744B66A007F9CA8 /* RoundSeries.m in Sources */,
+				BF35C0581744B689007F9CA8 /* PieSeries.m in Sources */,
+				BF35C05B1744B6D2007F9CA8 /* CircleLegend.m in Sources */,
+				BF35C05E1744B6E7007F9CA8 /* DiamondLegend.m in Sources */,
+				BF35C0611744B6FC007F9CA8 /* SquareLegend.m in Sources */,
+				BF35C0641744B710007F9CA8 /* TriangleLegend.m in Sources */,
+				BF35C0671744B8F8007F9CA8 /* AxisLabelSetting.m in Sources */,
+				BF83CC99174604CE00A0E925 /* ChartTestViewController.m in Sources */,
+				BF83CC96174600F200A0E925 /* CartesianChart.m in Sources */,
+				BF83CC9C1746057900A0E925 /* Stroke.m in Sources */,
+				BF83CC9F1746059100A0E925 /* AxisStroke.m in Sources */,
+				BF4C1BA61749BA79007CCF6A /* JSONKit.m in Sources */,
+				BFFD0537174A0D4800EFFC12 /* ChartView.m in Sources */,
+				BF818D8A174B0A0600DCA451 /* RoundLabelDrawer.m in Sources */,
+				BF818D8D174B109300DCA451 /* LabelPoint.m in Sources */,
+				BF287993174B5A2D007F4182 /* Shape.m in Sources */,
+				BF287996174B62D5007F4182 /* Line.m in Sources */,
+				BF28799C174B6775007F4182 /* Column.m in Sources */,
+				BF28799F174B69AC007F4182 /* RectLayer.m in Sources */,
+				BF2879A2174B6AFA007F4182 /* BaseLayer.m in Sources */,
+				BF2879A5174B6C87007F4182 /* SliceLayer.m in Sources */,
+				BF8033DF174CA47E0085B92D /* LineSeries.m in Sources */,
+				BF8033E2174CB9C60085B92D /* Circle.m in Sources */,
+				BF8033E5174CC0EC0085B92D /* LineLayer.m in Sources */,
+				BF5CBB3A174DB46500816169 /* AnimColumnSeries.m in Sources */,
+				BF5CBB3D174DF37F00816169 /* ThreadPool.m in Sources */,
+				BF5CBB40174E188800816169 /* AnimLineSeries.m in Sources */,
+				BF317F7C174EF46E003AD514 /* LineGradient.m in Sources */,
+				BF317F7F174EF7EF003AD514 /* UIColor+ChartColor.m in Sources */,
+				BF33D982174F3D28007A0F3D /* SCGradientLayer.m in Sources */,
+				BF4347781758970A00100A7B /* CircleLayer.m in Sources */,
+				BF42DC0C175C775F009A2EEE /* AnimBarSeries.m in Sources */,
+				BF91DB6A175DAFC900D10031 /* DialChart.m in Sources */,
+				BF91DB6D175DB06000D10031 /* DialAxis.m in Sources */,
+				BFD5DBD9175EE901003C0DC2 /* Gradient.m in Sources */,
+				BFD5DBDC175EE9B8003C0DC2 /* RadialGradient.m in Sources */,
+				BFD5DBE1175F2F89003C0DC2 /* ImageLayer.m in Sources */,
+				BFD5DBE4175F35B8003C0DC2 /* DialSeries.m in Sources */,
+				BFC1C13717616E450042F263 /* Area.m in Sources */,
+				BFC1C13A1761C4EC0042F263 /* ChartFactory.m in Sources */,
+				BF0473081763278100FE66A6 /* ChartViewViewController.m in Sources */,
+				BFA77D6017641F2F0040D5E9 /* ChartVO.m in Sources */,
+				BF1A286F176ED754000EA5BC /* Triangle.m in Sources */,
+				BF1A2872176EDDB4000EA5BC /* Diamon.m in Sources */,
+				BF6BB27B1770260900E96813 /* NSString+NSChartLabelDraw.m in Sources */,
+				BFE1B4471772A8E500E31FA3 /* AnimationUtils.m in Sources */,
+				BFE1B44A1772D28500E31FA3 /* RadarSeries.m in Sources */,
+				BFE1B44D1772D29C00E31FA3 /* RadarChart.m in Sources */,
+				BFED5EB61773E4AF0026D4FE /* RadarAxis.m in Sources */,
+				BFCAA70217792DEA00BCE1F0 /* CALayer+Additions.m in Sources */,
+				BFCAA70517793AE300BCE1F0 /* AreaShapeLayer.m in Sources */,
+				BFBD7974177C23A600BD89E6 /* SeriesModel.m in Sources */,
+				BFF1FDAC178A800100BD826F /* AxisCreator.m in Sources */,
+				BFF1FDAF178A800F00BD826F /* AxisModel.m in Sources */,
+				BFF1FDB2178A802300BD826F /* SeriesCreator.m in Sources */,
+				BFF1FDB5178A803100BD826F /* ChartModel.m in Sources */,
+				BFF1FDB8178A804700BD826F /* ChartParser.m in Sources */,
+				BFF1FDBB178A806F00BD826F /* ChartFacade.m in Sources */,
+				BFF1FDBE178A808900BD826F /* ChartLegendCreator.m in Sources */,
+				BFF1FDC1178AAEF100BD826F /* ChartCreator.m in Sources */,
+				BFDE6CC5178FD2C5008CFE5E /* ChartConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF7B7A47173CBB750088CA6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7B7A48173CBB750088CA6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF7B7A6B173CBB750088CA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: anliang niu (4B8254N826)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: anliang niu (4B8254N826)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF7B7A6C173CBB750088CA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: anliang niu (4B8254N826)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: anliang niu (4B8254N826)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF7B7A6E173CBB750088CA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartChart/SmartChart-Prefix.pch";
+				INFOPLIST_FILE = "SmartChart/SmartChart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF7B7A6F173CBB750088CA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartChart/SmartChart-Prefix.pch";
+				INFOPLIST_FILE = "SmartChart/SmartChart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF7B7A36173CBB750088CA6D /* Build configuration list for PBXProject "SmartChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7B7A6B173CBB750088CA6D /* Debug */,
+				BF7B7A6C173CBB750088CA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7B7A6D173CBB750088CA6D /* Build configuration list for PBXNativeTarget "SmartChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7B7A6E173CBB750088CA6D /* Debug */,
+				BF7B7A6F173CBB750088CA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF7B7A33173CBB750088CA6D /* Project object */;
+}
